@@ -1,0 +1,25 @@
+<resources>
+    <!-- activity_main -->
+    <string name="app_name">Copa do Mundo 2022</string>
+    <string name="franca">FRANÇA</string>
+    <string name="escalacao">VER ESCALAÇÃO</string>
+    <string name="jogo1">Grupo D - 22/11/2022</string>
+    <string name="jogo2">Grupo D - 26/11/2022</string>
+    <string name="jogo3">Grupo D - 30/11/2022</string>
+    <string name="placar_jogo1">4 x 1</string>
+    <string name="placar_jogo2">2 x 1</string>
+    <string name="placar_jogo3">1 x 0</string>
+    <!-- activity_detail -->
+    <string name="jogador1">HUGO LLORIS (Goleiro)</string>
+    <string name="jogador2">RAPHAEL VARANE (Zagueiro)</string>
+    <string name="jogador3">JULES KOUNDE (Zagueiro)</string>
+    <string name="jogador4">LUCAS HERNANDEZ (Zagueiro)</string>
+    <string name="jogador5">N\'GOLO KANTE (Meia)</string>
+    <string name="jogador6">PAUL POGBA (Meia)</string>
+    <string name="jogador7">THEO HERNANDEZ (Meia)</string>
+    <string name="jogador8">KINGSLEY COMAN (Meia)</string>
+    <string name="jogador9">ANTOINE GRIEZMANN (Meia)</string>
+    <string name="jogador10">OLIVIER GIROUD (Atacante)</string>
+    <string name="jogador11">KYLIAN MBAPPE (Atacante)</string>
+    <string name="treinador">DIDIER DESCHAMPS (Treinador)</string>
+</resources>
