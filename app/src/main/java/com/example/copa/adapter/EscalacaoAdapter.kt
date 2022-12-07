@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.copa.DetailActivity
 import com.example.copa.R
@@ -26,7 +25,6 @@ class EscalacaoAdapter (private val context: Context,
 
     override fun onBindViewHolder(holder: EscalacaoViewHolder, position: Int) {
         val item = dataset[position]
-        holder.textView.text = context.resources.getString(item.stringResourceId)
         holder.imageView.setImageResource(item.imageResourceId)
         holder.button.text = context.resources.getString(item.stringResourceId)
 
@@ -46,7 +44,6 @@ class EscalacaoAdapter (private val context: Context,
 
     class EscalacaoViewHolder(val view: View):
             RecyclerView.ViewHolder(view){
-                val textView: TextView = view.findViewById(R.id.button_title)
                 val imageView: ImageView = view.findViewById(R.id.item_image)
                 val button: Button = view.findViewById(R.id.button_title)
             }
